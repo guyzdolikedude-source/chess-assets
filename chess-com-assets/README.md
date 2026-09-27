@@ -7,5 +7,7 @@ This repository is not affiliated with, endorsed by, or sponsored by Chess.com. 
 
 ## Collections
 
-- [`neo-main/`](./neo-main/) — the original Neo main-piece set at 150 px.
-- [`piece-themes/`](./piece-themes/) — all 38 standard piece themes at 150 px, grouped by Chess.com URL slug.
+- [`pieces/`](./pieces/) — all Chess.com piece collections:
+  - [`neo-main/`](./pieces/neo-main/) — the original Neo main-piece set at 150 px.
+  - [`piece-themes/`](./pieces/piece-themes/) — all 38 standard piece themes at 150 px, grouped by Chess.com URL slug.
+- [`boards/`](./boards/) — all 30 standard board themes at the `150` variant. [`green/150.png`](./boards/green/150.png) is the main board.
