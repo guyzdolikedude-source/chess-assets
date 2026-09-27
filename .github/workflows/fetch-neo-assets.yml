@@ -1,0 +1,28 @@
+name: Fetch Neo assets
+
+on:
+  push:
+    branches:
+      - arena/01a0e2ed-chess-assets
+    paths:
+      - .github/workflows/fetch-neo-assets.yml
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Chess.com Neo piece images
+        run: |
+          set -euo pipefail
+          mkdir neo-main
+          base_url='https://images.chesscomfiles.com/chess-themes/pieces/neo/150'
+          for piece in bb bk bn bp bq br wb wk wn wp wq wr; do
+            curl --fail --location --retry 3 --retry-all-errors --output "neo-main/${piece}.png" "${base_url}/${piece}.png"
+          done
+          file neo-main/*.png
+      - name: Upload Neo piece images
+        uses: actions/upload-artifact@v4
+        with:
+          name: chess-com-neo-main
+          path: neo-main/
+          retention-days: 1
