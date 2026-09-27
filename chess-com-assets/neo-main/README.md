@@ -3,15 +3,15 @@
 > [!WARNING]
 > These are Chess.com-originated materials. Keep any local copies and downstream use within the permissions granted by Chess.com; do not assume this repository grants a license to them.
 
-The Neo main-piece set uses the following file names and canonical source URLs at 150 px:
+The Neo main-piece set includes the following 150 px PNGs:
 
 | Piece | Black | White |
 | --- | --- | --- |
-| Bishop | [`bb.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bb.png) | [`wb.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wb.png) |
-| King | [`bk.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bk.png) | [`wk.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wk.png) |
-| Knight | [`bn.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bn.png) | [`wn.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wn.png) |
-| Pawn | [`bp.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bp.png) | [`wp.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wp.png) |
-| Queen | [`bq.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/bq.png) | [`wq.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wq.png) |
-| Rook | [`br.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/br.png) | [`wr.png`](https://images.chesscomfiles.com/chess-themes/pieces/neo/150/wr.png) |
+| Bishop | [`bb.png`](./bb.png) | [`wb.png`](./wb.png) |
+| King | [`bk.png`](./bk.png) | [`wk.png`](./wk.png) |
+| Knight | [`bn.png`](./bn.png) | [`wn.png`](./wn.png) |
+| Pawn | [`bp.png`](./bp.png) | [`wp.png`](./wp.png) |
+| Queen | [`bq.png`](./bq.png) | [`wq.png`](./wq.png) |
+| Rook | [`br.png`](./br.png) | [`wr.png`](./wr.png) |
 
-Source collection: <https://www.chess.com/chess-themes/pieces/neo/150/>.
+Canonical source collection: <https://www.chess.com/chess-themes/pieces/neo/150/>.
