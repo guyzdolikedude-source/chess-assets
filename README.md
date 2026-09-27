@@ -1,6 +1,6 @@
 # chess-assets
 
-A growing collection of chess-related visual assets from [Chess.com](https://www.chess.com/), Sashité, Chessperiment, and other chess projects. The repository is a simple place to find piece sets, board themes, and other resources for chess-related work.
+A growing collection of chess-related visual and audio assets from [Chess.com](https://www.chess.com/), Sashité, Chessperiment, and other chess projects. The repository is a simple place to find piece sets, board themes, sounds, and other resources for chess-related work.
 
 > [!WARNING]
 > Chess.com-originated assets are kept separately in [`chess-com-assets/`](./chess-com-assets/). They may be protected by copyright, trademark, and Chess.com terms of use. This repository does **not** grant permission to reuse them. Review the collection warning and obtain any required authorization before copying, modifying, distributing, or using those assets.
@@ -22,6 +22,7 @@ Chess.com-originated collections are outside `misc assets` because they have sep
 
 - [`pieces/`](./chess-com-assets/pieces/) — the original 150 px Neo main-piece set and all 38 standard Chess.com piece themes at 150 px. The theme catalog includes the canonical slugs and the `modern2` mapping for Modern.
 - [`boards/`](./chess-com-assets/boards/) — all 30 standard Chess.com board themes at the `150` variant. [`green/150.png`](./chess-com-assets/boards/green/150.png) is the main board.
+- [`sounds/`](./chess-com-assets/sounds/) — the default Chess.com sound-event catalog, with all 36 named event files and trigger documentation.
 
 ## Attribution and licensing
 
