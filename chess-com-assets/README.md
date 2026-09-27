@@ -7,4 +7,5 @@ This repository is not affiliated with, endorsed by, or sponsored by Chess.com. 
 
 ## Collections
 
-- [`neo-main/`](./neo-main/) — Neo main-piece set source references.
+- [`neo-main/`](./neo-main/) — the original Neo main-piece set at 150 px.
+- [`piece-themes/`](./piece-themes/) — all 38 standard piece themes at 150 px, grouped by Chess.com URL slug.

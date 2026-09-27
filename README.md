@@ -18,7 +18,10 @@ See [`misc assets/README.md`](./misc%20assets/README.md) for each collection's s
 
 ### [chess-com-assets](./chess-com-assets/)
 
-Chess.com-originated collections are outside `misc assets` because they have separate usage considerations. The first collection is [`neo-main/`](./chess-com-assets/neo-main/), which documents the Neo main-piece set and its source locations.
+Chess.com-originated collections are outside `misc assets` because they have separate usage considerations:
+
+- [`neo-main/`](./chess-com-assets/neo-main/) — the Neo main-piece set at 150 px.
+- [`piece-themes/`](./chess-com-assets/piece-themes/) — all 38 standard Chess.com piece themes at 150 px. The catalog includes the canonical slugs and the `modern2` mapping for Modern.
 
 ## Attribution and licensing
 
